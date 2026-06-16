@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Job Application Form</title>
+</head>
+
+<body>
+
+<form>
+
+    <h1 align="center">Job Application Form</h1>
+
+    <fieldset>
+        <legend><b>Personal Details</b></legend>
+
+        <label>Full Name:</label>
+        <input type="text" name="fname" placeholder="Enter your full name" ><br><br>
+
+        <label>Father's Name:</label>
+        <input type="text" name="father" placeholder="Enter father's name"><br><br>
+
+        <label>Date of Birth:</label>
+        <input type="date" name="dob"><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Other"> Other
+        <br><br>
+
+        <label>Mobile Number:</label>
+        <input type="tel" name="mobile" placeholder="Enter mobile number" ><br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Enter email address"><br><br>
+
+        <label>Marital Status:</label>
+        <select name="marital">
+            <option value="" selected disabled>Select Marital Status</option>
+            <option>Single</option>
+            <option>Married</option>
+            <option>Divorced</option>
+        </select>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend><b>Educational Details</b></legend>
+
+        <label>10th Percentage:</label>
+        <input type="number" name="percentage" placeholder="Enter 10th percentage"><br><br>
+
+        <label>12th Percentage:</label>
+        <input type="number" name="percentage" placeholder="Enter 12th percentage"><br><br>
+
+        <label>Graduation:</label>
+        <input type="text" name="graduation" placeholder="Enter graduation course"><br><br>
+
+        <label>University:</label>
+        <input type="text" name="university" placeholder="Enter university name"><br><br>
+
+        <label>Passing Year:</label>
+        <input type="number" name="passing year" placeholder="Enter passing year"><br><br>
+
+        <label>Additional Qualification:</label>
+        <input type="text" name="qualification" placeholder="Enter additional qualification">
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend><b>Experience Details</b></legend>
+
+        <label>Total Experience:</label>
+        <input type="text" name="experience" placeholder="Enter your Experience"><br><br>
+
+        <label>Current Company:</label>
+        <input type="text" name="company" placeholder="Enter company name"><br><br>
+
+        <label>Designation:</label>
+        <input type="text" name="designation" placeholder="Enter designation"><br><br>
+
+        <label>Current Salary:</label>
+        <input type="number" name="salary" placeholder="Enter current salary"><br><br>
+
+        <label>Skills:</label><br>
+        <textarea name="skills" rows="5" cols="60" placeholder="Enter your skills"></textarea>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend><b>Address Details</b></legend>
+
+        <label>Address:</label><br>
+        <textarea name="address" rows="5" cols="60" placeholder="Enter your address"></textarea><br><br>
+
+        <label>City:</label>
+        <input type="text" name="city" placeholder="Enter city"><br><br>
+
+        <label>State:</label>
+        <input type="text" name="state" placeholder="Enter state"><br><br>
+
+        <label>Pin Code:</label>
+        <input type="number" name="pin" placeholder="Enter pin code"><br><br>
+
+        <label>Country:</label>
+        <input type="text" name="country" placeholder="Enter country">
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend><b>Photo & Signature</b></legend>
+
+        <label>Upload Photo:</label>
+        <input type="file" name="photo" accept="image/*"><br><br>
+
+        <label>Upload Signature:</label>
+        <input type="file" name="Signature" accept="image/*">
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend><b>Required Documents</b></legend>
+
+        <label>Resume/CV:</label>
+        <input type="file" name="resume"><br><br>
+
+        <label>Aadhaar Card:</label>
+        <input type="file" name="Aadhaar Card"><br><br>
+
+        <label>PAN Card:</label>
+        <input type="file" name="PAN Card"><br><br>
+
+        <label>10th Marksheet:</label>
+        <input type="file" name="Marksheet"><br><br>
+
+        <label>12th Marksheet:</label>
+        <input type="file" name="12th Marksheet"><br><br>
+
+        <label>Graduation Certificate:</label>
+        <input type="file" name="Graduation"><br><br>
+
+        <label>Experience Certificate:</label>
+        <input type="file" name="Experience Certificate"><br><br>
+
+        <label>Other Documents:</label>
+        <input type="file" name="Other Documents">
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend><b>Declaration</b></legend>
+
+        <input type="checkbox">
+        <label>
+            I hereby declare that all the information provided above is true and correct to the best of my knowledge.
+        </label>
+    </fieldset>
+
+    <br>
+
+        <input type="submit" value="Submit Form">
+        <input type="reset" value="Reset Form">
+
+</form>
+
+</body>
+</html>
